@@ -7,7 +7,6 @@ import {shallow} from 'enzyme';
 import Preferences from '@mm-redux/constants/preferences';
 import EventEmitter from '@mm-redux/utils/event_emitter';
 
-import * as NavigationActions from 'app/actions/navigation';
 import {NavigationTypes} from '@constants';
 import PostList from './post_list';
 
@@ -15,15 +14,16 @@ jest.useFakeTimers();
 jest.mock('react-intl');
 
 describe('PostList', () => {
+    const formatMessage = jest.fn();
     const serverURL = 'https://server-url.fake';
     const deeplinkRoot = 'mattermost://server-url.fake';
 
     const baseProps = {
         actions: {
+            closePermalink: jest.fn(),
             handleSelectChannelByName: jest.fn(),
-            loadChannelsByTeamName: jest.fn(),
             refreshChannelWithRetry: jest.fn(),
-            selectFocusedPostId: jest.fn(),
+            showPermalink: jest.fn(),
             setDeepLinkURL: jest.fn(),
         },
         channelId: 'channel-id',
@@ -49,21 +49,20 @@ describe('PostList', () => {
     });
 
     test('setting permalink deep link', () => {
-        const showModalOverCurrentContext = jest.spyOn(NavigationActions, 'showModalOverCurrentContext');
         const wrapper = shallow(
             <PostList {...baseProps}/>,
         );
 
         wrapper.setProps({deepLinkURL: deepLinks.permalink});
         expect(baseProps.actions.setDeepLinkURL).toHaveBeenCalled();
-        expect(baseProps.actions.selectFocusedPostId).toHaveBeenCalled();
-        expect(showModalOverCurrentContext).toHaveBeenCalled();
+        expect(baseProps.actions.showPermalink).toHaveBeenCalled();
         expect(wrapper.getElement()).toMatchSnapshot();
     });
 
     test('setting channel deep link', () => {
         const wrapper = shallow(
             <PostList {...baseProps}/>,
+            {context: {intl: {formatMessage}}},
         );
 
         wrapper.setProps({deepLinkURL: deepLinks.channel});

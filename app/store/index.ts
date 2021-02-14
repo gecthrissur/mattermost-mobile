@@ -18,7 +18,7 @@ import appReducer from 'app/reducers';
 import {createReducer, getStoredState} from './helpers';
 import {createMiddlewares} from './middlewares';
 import Store from './store';
-import {transformSet} from './utils';
+import {transformSet, serialize} from './utils';
 
 /**
  * Configures and constructs the redux store. Accepts the following parameters:
@@ -167,7 +167,7 @@ export default function configureStore(storage: any, preloadedState: any = {}, o
     const defaultConfig: PersistConfig<GlobalState> = {
         key: 'root',
         storage,
-        serialize: (state: GlobalState) => ({...state}),
+        serialize,
         deserialize: false,
         blacklist: ['device', 'navigation', 'requests', '_persist'],
         transforms: [
@@ -188,6 +188,7 @@ export default function configureStore(storage: any, preloadedState: any = {}, o
         if (action.type === General.OFFLINE_STORE_PURGE) {
             // eslint-disable-next-line no-underscore-dangle
             if (action.data?._persist) {
+                // eslint-disable-next-line no-underscore-dangle
                 delete action?.data?._persist;
             }
             return baseReducer(action.data, action as any);

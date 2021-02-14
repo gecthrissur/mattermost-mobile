@@ -23,7 +23,6 @@ exports[`channel_info_header should match snapshot 1`] = `
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -36,6 +35,7 @@ exports[`channel_info_header should match snapshot 1`] = `
       membersCount={3}
       size={24}
       status="status"
+      testID="channel_info.header.channel_icon"
       theme={
         Object {
           "awayIndicator": "#ffbc42",
@@ -78,18 +78,16 @@ exports[`channel_info_header should match snapshot 1`] = `
           "fontWeight": "600",
         }
       }
+      testID="channel_info.header.display_name"
     >
       Channel name
     </Text>
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -130,12 +128,9 @@ exports[`channel_info_header should match snapshot 1`] = `
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -184,6 +179,7 @@ exports[`channel_info_header should match snapshot 1`] = `
             }
           }
           disableAtChannelMentionHighlight={true}
+          disableGallery={true}
           onChannelLinkPress={[MockFunction]}
           onPermalinkPress={[MockFunction]}
           textStyles={
@@ -289,7 +285,6 @@ exports[`channel_info_header should match snapshot 1`] = `
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -333,7 +328,6 @@ exports[`channel_info_header should match snapshot when DM and hasGuests and is 
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -346,6 +340,7 @@ exports[`channel_info_header should match snapshot when DM and hasGuests and is 
       membersCount={3}
       size={24}
       status="status"
+      testID="channel_info.header.channel_icon"
       theme={
         Object {
           "awayIndicator": "#ffbc42",
@@ -388,18 +383,16 @@ exports[`channel_info_header should match snapshot when DM and hasGuests and is 
           "fontWeight": "600",
         }
       }
+      testID="channel_info.header.display_name"
     >
       Channel name
     </Text>
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <View
@@ -425,12 +418,9 @@ exports[`channel_info_header should match snapshot when DM and hasGuests and is 
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -471,12 +461,9 @@ exports[`channel_info_header should match snapshot when DM and hasGuests and is 
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -525,6 +512,7 @@ exports[`channel_info_header should match snapshot when DM and hasGuests and is 
             }
           }
           disableAtChannelMentionHighlight={true}
+          disableGallery={true}
           onChannelLinkPress={[MockFunction]}
           onPermalinkPress={[MockFunction]}
           textStyles={
@@ -630,7 +618,6 @@ exports[`channel_info_header should match snapshot when DM and hasGuests and is 
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -674,7 +661,6 @@ exports[`channel_info_header should match snapshot when DM and hasGuests but its
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -687,6 +673,7 @@ exports[`channel_info_header should match snapshot when DM and hasGuests but its
       membersCount={3}
       size={24}
       status="status"
+      testID="channel_info.header.channel_icon"
       theme={
         Object {
           "awayIndicator": "#ffbc42",
@@ -729,18 +716,16 @@ exports[`channel_info_header should match snapshot when DM and hasGuests but its
           "fontWeight": "600",
         }
       }
+      testID="channel_info.header.display_name"
     >
       Channel name
     </Text>
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -781,12 +766,9 @@ exports[`channel_info_header should match snapshot when DM and hasGuests but its
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -835,6 +817,7 @@ exports[`channel_info_header should match snapshot when DM and hasGuests but its
             }
           }
           disableAtChannelMentionHighlight={true}
+          disableGallery={true}
           onChannelLinkPress={[MockFunction]}
           onPermalinkPress={[MockFunction]}
           textStyles={
@@ -940,7 +923,6 @@ exports[`channel_info_header should match snapshot when DM and hasGuests but its
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -984,7 +966,6 @@ exports[`channel_info_header should match snapshot when GM and hasGuests 1`] = `
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -997,6 +978,7 @@ exports[`channel_info_header should match snapshot when GM and hasGuests 1`] = `
       membersCount={3}
       size={24}
       status="status"
+      testID="channel_info.header.channel_icon"
       theme={
         Object {
           "awayIndicator": "#ffbc42",
@@ -1039,18 +1021,16 @@ exports[`channel_info_header should match snapshot when GM and hasGuests 1`] = `
           "fontWeight": "600",
         }
       }
+      testID="channel_info.header.display_name"
     >
       Channel name
     </Text>
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <View
@@ -1076,12 +1056,9 @@ exports[`channel_info_header should match snapshot when GM and hasGuests 1`] = `
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -1122,12 +1099,9 @@ exports[`channel_info_header should match snapshot when GM and hasGuests 1`] = `
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -1176,6 +1150,7 @@ exports[`channel_info_header should match snapshot when GM and hasGuests 1`] = `
             }
           }
           disableAtChannelMentionHighlight={true}
+          disableGallery={true}
           onChannelLinkPress={[MockFunction]}
           onPermalinkPress={[MockFunction]}
           textStyles={
@@ -1281,7 +1256,6 @@ exports[`channel_info_header should match snapshot when GM and hasGuests 1`] = `
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -1325,7 +1299,6 @@ exports[`channel_info_header should match snapshot when is group constrained 1`]
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -1338,6 +1311,7 @@ exports[`channel_info_header should match snapshot when is group constrained 1`]
       membersCount={3}
       size={24}
       status="status"
+      testID="channel_info.header.channel_icon"
       theme={
         Object {
           "awayIndicator": "#ffbc42",
@@ -1380,18 +1354,16 @@ exports[`channel_info_header should match snapshot when is group constrained 1`]
           "fontWeight": "600",
         }
       }
+      testID="channel_info.header.display_name"
     >
       Channel name
     </Text>
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -1432,12 +1404,9 @@ exports[`channel_info_header should match snapshot when is group constrained 1`]
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -1486,6 +1455,7 @@ exports[`channel_info_header should match snapshot when is group constrained 1`]
             }
           }
           disableAtChannelMentionHighlight={true}
+          disableGallery={true}
           onChannelLinkPress={[MockFunction]}
           onPermalinkPress={[MockFunction]}
           textStyles={
@@ -1591,7 +1561,6 @@ exports[`channel_info_header should match snapshot when is group constrained 1`]
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -1613,7 +1582,6 @@ exports[`channel_info_header should match snapshot when is group constrained 1`]
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -1657,7 +1625,6 @@ exports[`channel_info_header should match snapshot when public channel and hasGu
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
@@ -1670,6 +1637,7 @@ exports[`channel_info_header should match snapshot when public channel and hasGu
       membersCount={3}
       size={24}
       status="status"
+      testID="channel_info.header.channel_icon"
       theme={
         Object {
           "awayIndicator": "#ffbc42",
@@ -1712,18 +1680,16 @@ exports[`channel_info_header should match snapshot when public channel and hasGu
           "fontWeight": "600",
         }
       }
+      testID="channel_info.header.display_name"
     >
       Channel name
     </Text>
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <View
@@ -1749,12 +1715,9 @@ exports[`channel_info_header should match snapshot when public channel and hasGu
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -1795,12 +1758,9 @@ exports[`channel_info_header should match snapshot when public channel and hasGu
   </View>
   <View
     style={
-      Array [
-        Object {
-          "marginTop": 15,
-        },
-        null,
-      ]
+      Object {
+        "marginTop": 15,
+      }
     }
   >
     <ForwardRef
@@ -1849,6 +1809,7 @@ exports[`channel_info_header should match snapshot when public channel and hasGu
             }
           }
           disableAtChannelMentionHighlight={true}
+          disableGallery={true}
           onChannelLinkPress={[MockFunction]}
           onPermalinkPress={[MockFunction]}
           textStyles={
@@ -1954,7 +1915,6 @@ exports[`channel_info_header should match snapshot when public channel and hasGu
         Object {
           "paddingHorizontal": 15,
         },
-        null,
       ]
     }
   >
