@@ -1,7 +1,7 @@
 ############ VARIABLE VALUES ############
 #export MATTERMOST_WEBHOOK_URL=<set this to an incoming webhook url to get a notification when the build finishes>
 
-export BRANCH_TO_BUILD=test_build
+export BRANCH_TO_BUILD=master
 export GIT_LOCAL_BRANCH=build
 
 export APP_NAME="GECT Chat"

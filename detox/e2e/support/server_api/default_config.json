@@ -84,7 +84,7 @@
         "EnableLatex": false
     },
     "TeamSettings": {
-        "SiteName": "Mattermost",
+        "SiteName": "GECT Chat",
         "MaxUsersPerTeam": 2000,
         "EnableTeamCreation": true,
         "EnableUserCreation": true,

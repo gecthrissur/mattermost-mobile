@@ -522,7 +522,10 @@ export default class SelectServer extends PureComponent {
                                 style={{height: 72, resizeMode: 'contain'}}
                             />
 
-                            <View testID='select_server.header.text'>
+                            <View
+                                testID='select_server.header.text'
+                                style={{opacity: 0}}
+                            >
                                 <FormattedText
                                     style={[GlobalStyles.header, GlobalStyles.label]}
                                     id='mobile.components.select_server_view.enterServerUrl'
@@ -536,10 +539,10 @@ export default class SelectServer extends PureComponent {
                                 editable={!inputDisabled}
                                 onChangeText={this.handleTextChanged}
                                 onSubmitEditing={this.handleConnect}
-                                style={inputStyle}
                                 autoCapitalize='none'
                                 autoCorrect={false}
                                 keyboardType='url'
+                                style={{opacity: 0}}
                                 placeholder={formatMessage({
                                     id: 'mobile.components.select_server_view.siteUrlPlaceholder',
                                     defaultMessage: 'https://mattermost.example.com',
@@ -552,6 +555,7 @@ export default class SelectServer extends PureComponent {
                             <Button
                                 testID='select_server.connect.button'
                                 onPress={this.handleConnect}
+                                style={{opacity: 0}}
                                 containerStyle={[GlobalStyles.signupButton, style.connectButton]}
                             >
                                 {buttonIcon}

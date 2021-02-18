@@ -1,16 +1,17 @@
 {
     "DefaultServerUrl": "https://mattermost.mentorhub.tk",
     "TestServerUrl": "http://localhost:8065",
-    "DefaultTheme": "default",
+    "DefaultTheme": "mattermostDark",
     "ShowErrorsList": false,
     "MinServerVersion": "4.0.0",
-    "EELearnURL": "about.mattermost.com",
-    "TeamEditionLearnURL": "mattermost.org",
-    "AboutTeamURL": "http://www.mattermost.org/",
-    "AboutEnterpriseURL": "http://about.mattermost.com/",
+    "EELearnURL": "https://gectcr.ac.in/about-us/",
+    "TeamEditionLearnURL": "https://gectcr.ac.in",
+    "AboutTeamURL": "https://gectcr.ac.in/alumni/",
+    "AboutEnterpriseURL": "https://gectcr.ac.in/about-us/",
     "PlatformNoticeURL": "https://about.mattermost.com/platform-notice-txt/",
     "MobileNoticeURL": "https://about.mattermost.com/mobile-notice-txt/",
     "RudderApiKey": "",
+    "SiteName": "GECT Chat",
 
     "HideEmailLoginExperimental": false,
     "HideGitLabLoginExperimental": false,
@@ -31,12 +32,12 @@
 
     "ExperimentalNormalizeMarkdownLinks": false,
 
-    "AutoSelectServerUrl": true,
+    "AutoSelectServerUrl": false,
 
     "EnableMobileClientUpgrade": false,
     "EnableMobileClientUpgradeUserSetting": false,
     "EnableForceMobileClientUpgrade": false,
-    "MobileClientUpgradeAndroidApkLink": "https://about.mattermost.com/mattermost-android-app/",
+    "MobileClientUpgradeAndroidApkLink": "https://play.google.com/store/apps/details?id=in.ac.gectcr.gect_chat&hl=en_IN&referrer=utm_source%3Dupgrade_from_app",
     "MobileClientUpgradeIosIpaLink": "https://about.mattermost.com/mattermost-ios-app/",
 
     "ShowSentryDebugOptions": false,
