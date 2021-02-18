@@ -387,7 +387,7 @@ export default class Login extends PureComponent {
                         />
                         <View testID='login.screen'>
                             <Text style={GlobalStyles.header}>
-                                {this.props.config.SiteName}
+                                {'GECT Chat'}
                             </Text>
                             <FormattedText
                                 style={GlobalStyles.subheader}

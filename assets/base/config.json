@@ -11,6 +11,10 @@
     "PlatformNoticeURL": "https://about.mattermost.com/platform-notice-txt/",
     "MobileNoticeURL": "https://about.mattermost.com/mobile-notice-txt/",
     "RudderApiKey": "",
+    "SiteName": "GECT Chat",
+    "TeamSettings": {
+        "SiteName": "GECT Chat"
+    },
 
     "HideEmailLoginExperimental": false,
     "HideGitLabLoginExperimental": false,

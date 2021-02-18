@@ -32,7 +32,7 @@
 
     "ExperimentalNormalizeMarkdownLinks": false,
 
-    "AutoSelectServerUrl": false,
+    "AutoSelectServerUrl": true,
 
     "EnableMobileClientUpgrade": false,
     "EnableMobileClientUpgradeUserSetting": false,
